@@ -1,0 +1,77 @@
+{
+  "_notice": "DEMONSTRATION / TEST DATA. Suppliers, prices and URLs are fictional and are not real market offers.",
+  "entries": [
+    {
+      "match": {"active_ingredients": "paracetamol", "strength": "500 mg", "dosage_form": "tablet"},
+      "offers": [
+        {
+          "supplier_name": "DEMO Pharmacy Alpha (fictional)", "supplier_country": "India",
+          "supplier_domain": "alpha.demo.invalid",
+          "title": "Paracetamol 500 mg Tablets, strip of 10",
+          "declared": {"active_ingredients": "Paracetamol", "strength": "500 mg", "dosage_form": "Tablet", "pack_quantity": "10"},
+          "pack_units": 10, "price": 24.0, "currency": "INR", "mrp": 30.0, "moq_packs": 1,
+          "audience": "retail", "availability": "in_stock", "availability_source": "demo fixture",
+          "delivery_estimate": "2-3 days (fictional)", "shipping_cost": 40.0, "tax_included": true,
+          "prescription_required": false, "product_url": "https://alpha.demo.invalid/paracetamol-500"
+        },
+        {
+          "supplier_name": "DEMO Pharmacy Beta (fictional)", "supplier_country": "India",
+          "supplier_domain": "beta.demo.invalid",
+          "title": "Paracetamol Tablets IP 500 mg x 10",
+          "declared": {"active_ingredients": "Paracetamol", "strength": "500mg", "dosage_form": "Tablets", "pack_quantity": "10"},
+          "pack_units": 10, "price": 21.5, "currency": "INR", "audience": "retail",
+          "availability": "unknown", "product_url": "https://beta.demo.invalid/p/500"
+        },
+        {
+          "supplier_name": "DEMO Wholesale Gamma (fictional)", "supplier_country": "India",
+          "supplier_domain": "gamma.demo.invalid",
+          "title": "Paracetamol 500 mg Tablets, carton of 100 (wholesale)",
+          "declared": {"active_ingredients": "Paracetamol", "strength": "500 mg", "dosage_form": "Tablet", "pack_quantity": "100"},
+          "pack_units": 100, "price": 180.0, "currency": "INR", "moq_packs": 5,
+          "price_breaks": [{"min_packs": 10, "pack_price": 165.0}],
+          "audience": "business", "availability": "in_stock", "availability_source": "demo fixture",
+          "tax_included": false, "product_url": "https://gamma.demo.invalid/wholesale/paracetamol-500",
+          "enquiry_url": "https://gamma.demo.invalid/enquiry"
+        },
+        {
+          "supplier_name": "DEMO Pharmacy Delta (fictional)", "supplier_country": "India",
+          "supplier_domain": "delta.demo.invalid",
+          "title": "Paracetamol tablets 10s",
+          "declared": {"active_ingredients": "Paracetamol", "pack_quantity": "10"},
+          "pack_units": 10, "price": 19.0, "currency": "INR", "audience": "retail",
+          "product_url": "https://delta.demo.invalid/paracetamol"
+        },
+        {
+          "supplier_name": "DEMO Pharmacy Epsilon (fictional)", "supplier_country": "India",
+          "supplier_domain": "epsilon.demo.invalid",
+          "title": "Paracetamol 650 mg Tablets, strip of 15 (different strength decoy)",
+          "declared": {"active_ingredients": "Paracetamol", "strength": "650 mg", "dosage_form": "Tablet", "pack_quantity": "15"},
+          "pack_units": 15, "price": 28.0, "currency": "INR", "audience": "retail",
+          "product_url": "https://epsilon.demo.invalid/paracetamol-650"
+        }
+      ]
+    },
+    {
+      "match": {"product_name": "nitrile examination gloves"},
+      "offers": [
+        {
+          "supplier_name": "DEMO MedSupply Zeta (fictional)", "supplier_country": "India",
+          "supplier_domain": "zeta.demo.invalid",
+          "title": "Nitrile Examination Gloves, Size M, Non-sterile, box of 100",
+          "declared": {"product_name": "Nitrile examination gloves", "size_dimensions": "M", "material": "Nitrile", "sterile": "no", "pack_quantity": "100"},
+          "pack_units": 100, "price": 420.0, "currency": "INR", "audience": "both",
+          "availability": "in_stock", "availability_source": "demo fixture",
+          "product_url": "https://zeta.demo.invalid/gloves-m"
+        },
+        {
+          "supplier_name": "DEMO MedSupply Eta (fictional)", "supplier_country": "India",
+          "supplier_domain": "eta.demo.invalid",
+          "title": "Latex Examination Gloves, Size M, box of 100 (different material decoy)",
+          "declared": {"product_name": "Latex examination gloves", "size_dimensions": "M", "material": "Latex", "sterile": "no", "pack_quantity": "100"},
+          "pack_units": 100, "price": 360.0, "currency": "INR", "audience": "both",
+          "product_url": "https://eta.demo.invalid/latex-gloves-m"
+        }
+      ]
+    }
+  ]
+}
